@@ -1,7 +1,5 @@
+import pathlib
 
-list1=[12,-7,5,64,-14]
+p=pathlib.Path("C:/Users/ARYAA CHOUDHARI/Desktop/lesson 2/my first project.py").suffix
+print(p)
 
-for i in range(len(list1)):
-    p=list1.index(i)
-    if p>0:
-        print(p)
